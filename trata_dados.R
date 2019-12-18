@@ -476,7 +476,7 @@ for (item in rownames(tabela3)) {
   )
 }
 
-write.xlsx(tabela3,"tabela3nova.xlsx")
+
 
 
 #TABELA 4 CHARGES FOR THE USE OF IP POR PAIS
@@ -595,7 +595,6 @@ for (item in Biggest_Charges_Flow_2018$Country) {
 
 #sum(Biggest_Charges_Flow_2018$`World Share`)
 #View(Biggest_Charges_Flow_2018)
-write.xlsx(Biggest_Charges_Flow_2018,"tabela4nova.xlsx")
 #getwd()
 
 ##################################################
@@ -676,7 +675,7 @@ for (item in FlowsChargesRest$Country) {
   FlowsChargesRest$Country[which(FlowsChargesRest$Country==item)] <- 
     as.character(selectedCountries$Country[which(selectedCountries$ISO_2_IMF==item)])
 }
-write.xlsx(FlowsChargesRest,"tabela5nova.xlsx")
+
 
 
 # View(Biggest_Charges_Flow_2018)

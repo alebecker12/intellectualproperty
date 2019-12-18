@@ -899,11 +899,11 @@ for (item in FlowsPharmaRest$Country) {
 
 
 
-write.xlsx(tabela2,"table2nova.xlsx")
-write.xlsx(tabela3,"table3nova.xlsx")
-write.xlsx(Biggest_Charges_Flow_2018,"table4nova.xlsx")
-write.xlsx(FlowsChargesRest,"table5nova.xlsx")
-write.xlsx(Biggest_Pharma_Flow_2018,"table6nova.xlsx")
-write.xlsx(FlowsPharmaRest,"table7nova.xlsx")
+write.xlsx(tabela2,"chargesRegiao.xlsx")
+write.xlsx(tabela3,"PharmaRegiao.xlsx")
+write.xlsx(Biggest_Charges_Flow_2018,"Top10Charges.xlsx")
+write.xlsx(FlowsChargesRest,"TheRestCharges.xlsx")
+write.xlsx(Biggest_Pharma_Flow_2018,"Top10Pharma.xlsx")
+write.xlsx(FlowsPharmaRest,"TheRestPharma.xlsx")
 
 save.image("estudoCharges.RData")

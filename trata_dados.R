@@ -795,7 +795,7 @@ for (item in Biggest_Pharma_Flow_2018$Country) {
           na.rm = TRUE) +
         sum(goodsDebits$BMG_BP6_USD[which(goodsDebits$iso2c==converteIso3(item)&
                                             goodsDebits$year==2018)],
-            na.rm = TRUE))- Biggest_Pharma_Flow_2018$`Total Flow`$Country==item) /
+            na.rm = TRUE))- Biggest_Pharma_Flow_2018$`Total Flow`[which(Biggest_Pharma_Flow_2018$Country==item)]) /
     (total_goods_year - total_flow_Pharma)
   #Nona
   Biggest_Pharma_Flow_2018$`World Share of the GDP`[which(Biggest_Pharma_Flow_2018$Country==item)] <-

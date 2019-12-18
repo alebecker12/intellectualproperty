@@ -136,13 +136,13 @@ deflaciona <- function(valor,ano,land,tp,iso) {
 #fmi#
 chargesIPCredits <- imf_data(database_id ='BOP', indicator = 'BXSORL_BP6_USD', country = "all", start = 1980, freq = 'A')
 chargesIPDebits <- imf_data(database_id = 'BOP', indicator = 'BMSORL_BP6_USD', country = "all", start = 1980, freq = 'A')
-chargesIPNet <- imf_data(database_id = 'BOP', indicator = 'BSORL_BP6_USD', country = 'all', start = 1990, freq = 'A')
+#chargesIPNet <- imf_data(database_id = 'BOP', indicator = 'BSORL_BP6_USD', country = 'all', start = 1990, freq = 'A')
 servicesCredits <- imf_data(database_id = 'BOP', indicator = 'BXS_BP6_USD', country = 'all', start = 1980, freq = 'A')
 servicesDebits <- imf_data(database_id = 'BOP', indicator = 'BMS_BP6_USD', country = 'all', start = 1980, freq = 'A')
-servicesNet <- imf_data(database_id = 'BOP', indicator = 'BS_BP6_USD', country = 'all', start = 1990, freq = 'A')
+#servicesNet <- imf_data(database_id = 'BOP', indicator = 'BS_BP6_USD', country = 'all', start = 1990, freq = 'A')
 goodsCredits <- imf_data(database_id = 'BOP', indicator = 'BXG_BP6_USD', country = 'all', start = 1990, freq = 'A')
 goodsDebits <- imf_data(database_id = 'BOP', indicator = 'BMG_BP6_USD', country = 'all', start = 1990, freq = 'A')
-goodsNet <- imf_data(database_id = 'BOP', indicator = 'BG_BP6_USD', country = 'all', start = 1990, freq = 'A')
+#goodsNet <- imf_data(database_id = 'BOP', indicator = 'BG_BP6_USD', country = 'all', start = 1990, freq = 'A')
 
 #banco mundial
 GDP <- WDI(country = 'all', indicator = "NY.GDP.MKTP.CD", start = "1995", end = "2018")

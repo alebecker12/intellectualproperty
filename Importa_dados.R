@@ -29,9 +29,20 @@
 # install.packages('WDI')
 # install.packages('imfr')
 
+
+install.packages('rJava')
+install.packages('xlsx')
+install.packages('readxl')
+install.packages('readr')
+install.packages('imfr')
+install.packages('WDI')
+install.packages('comtradr')
+install.packages('tm')
+
+
+
 library(rJava)
 library(xlsx)
-library(rJava)
 library(readxl)
 library(readr)
 library(imfr)
